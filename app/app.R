@@ -5,7 +5,7 @@ housing<-read.csv("BostonHousing.csv", header=TRUE)
 
 ui<-fluidPage(
 
-    titlePanel("Boston Housing Data"),
+    titlePanel("Boston Housing Data Visualization"),
 
     sidebarLayout(
         sidebarPanel(
